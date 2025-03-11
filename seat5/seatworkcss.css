@@ -1,0 +1,66 @@
+Body{
+    background-color:black;
+}
+h2{
+    background-color: purple;
+    color: pink;
+    font-style: italic;
+    font: 'Franklin Gothic Medium';
+}
+
+
+
+div.a{
+    background-color: brown;
+    color:aquamarine;
+    border: 1cm;
+    margin-bottom: 10px;
+    width: 150px;
+}
+div.a:hover{
+    background-color: brown;
+    color:aquamarine;
+    border: 1cm;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+a:link{
+    margin-left: 10px;
+    color: aqua;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+    font-style: italic;
+    font-size: 250%;
+}
+a:active{
+    color: blue;
+}
+
+div.b{
+    background-color: rgb(99, 8, 8);
+    color: aqua;
+    width: 500px;
+    border: 5px solid aqua;
+    padding: 20px;
+    margin: 10px;
+}
+ul.a{
+    list-style-type: circle;
+    color: aqua;
+    
+}
+div.c{
+    background-color: rgb(241, 61, 226);
+    color: aqua;
+    width: 200x;
+    border: 5px solid aqua;
+    padding: 10px;
+    margin: 10px;
+}
+

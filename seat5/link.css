@@ -1,0 +1,33 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+    font-style: italic;
+    font-size: 1000%;
+}
+a:active{
+    color: blue;
+}
+
+h1{
+    background-color: green;
+}
+
+div{
+    background-color: aqua;
+    opacity: 0.3;
+}
+div2{
+    background: rgba(0,128,0,0.3);
+}
+p{
+    background-color: yellow;
+}
+body{
+    background-image: url("3.jpg");
+    background-size: cover;
+}

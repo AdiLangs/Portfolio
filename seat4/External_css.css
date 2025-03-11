@@ -1,0 +1,21 @@
+body{
+    background-color: green;
+    
+}
+    
+
+H1.first{ font-family:"courier", courier,monospace;
+font-size: 12pt;
+color: red;
+text-align:center;
+font-style:italic;}
+
+H1.second{ font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+    color: black;
+    text-align:center;}
+H1.third{ background-color: navy; 
+    font-family:"Brush Script MT";
+        font-size: 16;
+        color: fuchsia;
+        text-align:center;}

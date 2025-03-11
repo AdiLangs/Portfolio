@@ -1,0 +1,79 @@
+Body{
+    background-color:Olive;
+}
+
+DIV.one{
+    position:absolute;
+    top:50;
+    left:50;
+    font-size:36px ;
+    color:Blue;
+    font-weight:bold;
+    z-index:0;
+}
+
+DIV.two{
+    position:absolute;
+    top:50;
+    left:70;
+    font-size:36px ;
+    color:red;
+    
+    z-index:1;
+}
+
+DIV.three{
+    position:absolute;
+    top:60;
+    left:500;
+    width:200;
+    height:100;
+    background: pink;
+    font-size:10px ;
+    color:blue;
+    overflow:auto;
+    
+    z-index:1;
+}
+
+img.one{
+        position:absolute;
+        top:300; left:50;
+        height: 100; width:100;
+        z-index:0;
+}
+
+img.two{
+    position:absolute;
+    top:300; left:200;
+    height: 100; width:100;
+    border:thick; z-index:1;
+}
+img.three{
+    position:absolute;
+    top:350; left:100;
+    height: 100; width:100;
+    z-index:2;
+}
+
+img.gif1{
+    position:absolute;
+    top:500; left:500;
+    height: 500; width:50;
+    z-index:0;
+}
+
+img.gif2{
+    position:absolute;
+    top:500; left:500;
+    height: 580; width:350;
+    z-index:1;
+}
+
+img.gif3{
+    position:absolute;
+    top:620; 
+    left:770; 
+    height: 500; width:500;
+    z-index:2;
+}
