@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: #000080;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            background-color: #000080;
+            padding: 10px;
+            border-collapse: collapse;
+            width: 600px;
+        }
+        td {
+            padding: 5px;
+            border: 1px solid white;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 3px;
+            border: none;
+            
+        }
+        .status, .course {
+            color: red;
+            font-weight: bold;
+        }
+        textarea {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr><td><b>First Name:</b></td><td><input type="text"></td></tr>
+            <tr><td><b>Last Name:</b></td><td><input type="text"></td></tr>
+            <tr><td><b>Password:</b></td><td><input type="password"></td></tr>
+            <tr><td><b>Confirm Password:</b></td><td><input type="password"></td></tr>
+            <tr><td><b>Address:</b></td><td><input type="text"></td></tr>
+            <tr><td><b>Country:</b></td><td><input type="text"></select></td></tr>
+            <tr><td><b>Gender:</b></td><td><select><option>---</option><option>Male</option><option>Female</option></select></td></tr>
+            <tr>
+                <td><b>Birthdate:</b></td>
+                <td>
+                    <select><option>Month</option>
+                        <option>Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">Mar</option>
+                        <option value="">Apr</option>
+                        <option value="">May</option>
+                        <option value="">Jun</option>
+                        <option value="">Jul</option>
+                        <option value="">Aug</option>
+                        <option value="">Sep</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option></select>
+
+
+                    <select><option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                    </select>
+
+                        
+                    
+                    
+                    
+                    <select><option>Year</option>
+                        <option>1980</option>
+                        <option>1981</option>
+                        <option>1982</option>
+                        <option>1983</option>
+                        <option>1984</option>
+                        <option>1985</option>
+                        <option>1986</option>
+                        <option>1987</option>
+                        <option>1988</option>
+                        <option>1989</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Status:</b></td>
+                <td>
+                    <input type="radio" name="status"> <span class="status">Single</span>
+                    <input type="radio" name="status"> <span class="status">Married</span>
+                    <input type="radio" name="status"> <span class="status">Widow</span>
+                    <input type="radio" name="status"> <span class="status">Separated</span>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Course Interested:</b></td>
+            <td colspan="2"><input type="checkbox"> <span class="course">Engineering Courses (Electrical and Civil)</span>
+                <input type="checkbox"> <span class="course">Bachelor of Science in Information Technology</span></td></tr>
+            
+            
+            <tr><td><b>COMMENTS/Suggestion:</b></td>
+            <td colspan="2"><textarea rows="4">Type here...</textarea></td></tr>
+        </table>
+    </form>
+</body>
+</html>
